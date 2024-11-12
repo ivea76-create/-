@@ -63,3 +63,6 @@ git push
 * 4、推送到master分支
 git push origin master
 ![alt text](截图文件/image-65.png)
+* 5、强制推送到main分支
+git push -f origin main
+
