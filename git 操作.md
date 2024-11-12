@@ -1,6 +1,6 @@
 git 操作
 git init 初始化一个仓库s
-![alt text](截图文件\image-27.png)
+![alt text](截图文件/image-27.png)
 ![alt text](截图文件\image-28.png)
 创建仓库之后需要设置个人信息
 git config --global user.name "用户名"
