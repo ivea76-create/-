@@ -1,37 +1,37 @@
 git 操作
 git init 初始化一个仓库s
 ![alt text](截图文件/image-27.png)
-![alt text](截图文件\image-28.png)
+![alt text](截图文件/image-28.png)
 创建仓库之后需要设置个人信息
 git config --global user.name "用户名"
 git config --global user.email "邮箱"
-![alt text](截图文件\image-29.png)
+![alt text](截图文件/image-29.png)
 git status 查看仓库状态
-![alt text](截图文件\image-30.png)
+![alt text](截图文件/image-30.png)
 git add 文件名 添加文件到暂存区
-![alt text](截图文件\image-31.png)
+![alt text](截图文件/image-31.png)
 git commit -m "提交说明" 提交文件到仓库
-![alt text](截图文件\image-32.png)
+![alt text](截图文件/image-32.png)
 git log 查看提交历史  上述操作用于
-![alt text](截图文件\image-33.png)
+![alt text](截图文件/image-33.png)
 git reset --hard HEAD^ 回退到上一个版本
 git reset --hard HEAD^^ 回退到上上一个版本
 git reflog 查看命令历史
 git reset --hard 版本号 回退到指定版本
-![alt text](截图文件\image-35.png)
-![alt text](截图文件\image-34.png)
+![alt text](截图文件/image-35.png)
+![alt text](截图文件/image-34.png)
 git reset HEAD 文件名 取消暂存区文件 由绿色变红色
-![alt text](截图文件\image-36.png)
+![alt text](截图文件/image-36.png)
 git checkout -- 文件名 丢弃工作区文件 变成未暂存区文件
-![alt text](截图文件\image-37.png)
+![alt text](截图文件/image-37.png)
 git clone 仓库地址 克隆一个仓库
-![alt text](截图文件\image-38.png)
+![alt text](截图文件/image-38.png)
 git status 查看仓库状态
 git add 文件名 添加文件到暂存区
 git commit -m "提交说明" 提交文件到仓库
 git push 推送到远程仓库
-![alt text](截图文件\image-39.png)
-![alt text](截图文件\image-40.png)
+![alt text](截图文件/image-39.png)
+![alt text](截图文件/image-40.png)
 1、基本步骤,vim 修改(i插入，esc退出插入,:wq保存并退出)
 2、git status 查看仓库状态
 3、git add 文件名 添加文件到暂存区
