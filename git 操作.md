@@ -65,4 +65,5 @@ git push origin master
 ![alt text](截图文件/image-65.png)
 * 5、强制推送到main分支
 git push -f origin main
+1、git clone 仓库地址 克隆一个仓库
 
