@@ -9,54 +9,54 @@ t template 负责封装js,html ,css
 v view  负责业务逻辑层 接收请求，返回结果
 ## 虚拟环境创建
 * 1、安装virtualenvwrapper
-* mkdir ~/.virtualenvs
+* 'mkdir ~/.virtualenvs'
 * 2、设置环境变量
-sudo vim ~/.bashrc
+'sudo vim ~/.bashrc'
 ![alt text](截图文件/image-43.png)
 * 3、配置环境变量（在vim ~/.bashrc下）
-export WORKON_HOME=$HOME/.virtualenvs
-source /usr/local/bin/virtualenvwrapper.sh
+'export WORKON_HOME=$HOME/.virtualenvs'
+'source /usr/local/bin/virtualenvwrapper.sh'
 ![alt text](截图文件/image-44.png)
 * 4、保存后运行 wq
-source ~/.bashrc
+'source ~/.bashrc'
 * 5、创建虚拟环境
-mkvirtualenv -p python3 myenv
+'mkvirtualenv -p python3 myenv'
 ![alt text](截图文件/image-45.png)
 * 6、列出虚拟环境
-lsvirtualenv
+'lsvirtualenv'
 ![alt text](截图文件/image-46.png)
 * 7、激活虚拟环境
-workon myenv
+'workon myenv'
 ![alt text](截图文件/image-47.png)
 * 8、退出虚拟环境
-deactivate
+'deactivate'
 ![alt text](截图文件/image-48.png)
 * 9、进入虚拟环境之后安装虚拟环境库
-pip install requests
+'pip install requests'
 ![alt text](截图文件/image-49.png)
 * 10、创建py3_zzx虚拟环境
 ![alt text](截图文件/image-50.png)
 * 11、列出虚拟环境
-lsvirtualenv
+'lsvirtualenv'
 ![alt text](截图文件/image-51.png)
 * 12、切换虚拟环境
-workon py3_zzx
+'workon py3_zzx'
 ![alt text](截图文件/image-52.png)
 * 13、删除虚拟环境
-rmvirtualenv myenv
+'rmvirtualenv myenv'
 ![alt text](截图文件/image-53.png)
 * 14、删除py3虚拟环境下列出安装的库
-pip list
+'pip list'
 * 15、创建第一个django项目
-django-admin startproject bookmanager
+'django-admin startproject bookmanager'
 * 16、进入项目目录
-cd bookmanager
+'cd bookmanager'
 * 17、tree
 ![alt text](截图文件/image-55.png)
 * 18、配置文件详解
 ![alt text](截图文件/image-56.png)
 * 19、运行manage.py
-python manage.py runserver
+'python manage.py runserver'
 ![alt text](截图文件/image-57.png)
 * 20、success!
 ![alt text](截图文件/image-58.png)
